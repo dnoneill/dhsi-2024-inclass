@@ -1,0 +1,61 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://dnoneill.github.io/dhsi-2024-inclass/manifests/manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "[Click to edit label]",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://66f4594b-ab35-412b-b3d9-9e9cc0b5997d",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://4a4a34ae-948f-438d-a7df-f31d4aa81659",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : "5670",
+      "width" : "4476",
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://ef4aa524-aa1c-4a99-8996-b8edb4c0a9ba",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.lib.ncsu.edu/iiif/0002030/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : [ "http://iiif.io/api/image/2/context.json", {
+              "ronallo" : "http://ronallo.com/ns/",
+              "gravityBangs" : {
+                "@id" : "ronallo:gravityBangsFeature",
+                "@type" : "iiif:Feature"
+              }
+            } ],
+            "@id" : "https://iiif.lib.ncsu.edu/iiif/0002030",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "png" ],
+              "maxWidth" : 4476,
+              "maxHeight" : 5670,
+              "qualities" : [ "color", "gray", "bitonal" ],
+              "supports" : [ "baseUriRedirect", "cors", "regionByPct", "regionByPx", "regionSquare", "mirroring", "rotationArbitrary", "rotationBy90s", "sizeByConfinedWh", "SizeByDistortedWh", "sizeByH", "sizeByPct", "sizeByW", "sizeByWh", "gravityBangs" ]
+            } ]
+          },
+          "height" : 5670,
+          "width" : 4476
+        },
+        "on" : "http://4a4a34ae-948f-438d-a7df-f31d4aa81659"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
